@@ -9,7 +9,6 @@ Certifique-se de ter os seguintes requisitos instalados:
 - Python 3.x: [Python](https://www.python.org/downloads/)
 - Robot Framework: `pip install robotframework`
 - SeleniumLibrary: `pip install robotframework-seleniumlibrary`
-- Webdriver: ChromeDriver ou Geckodriver (dependendo do navegador)
 
 
 1. Clone o repositório: `git clone https://github.com/RayssaRbm/QA-Engineer`
