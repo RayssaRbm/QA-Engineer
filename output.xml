@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230619 23:49:19.719" rpa="false" schemaversion="4">
+<suite id="s1" name="Etapa Quatro" source="C:\Users\amanda.chaves.alves\Downloads\robot\Etapa_Quatro.robot">
+<test id="s1-t1" name="Quick Get A JSON Body Test" line="14">
+<kw name="GET" library="RequestsLibrary">
+<arg>https://www.google.com</arg>
+<doc>Sends a GET request.</doc>
+<msg timestamp="20230619 23:49:20.140" level="FAIL">SSLError: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1002)')))</msg>
+<status status="FAIL" starttime="20230619 23:49:19.906" endtime="20230619 23:49:20.287"/>
+</kw>
+<kw name="Status Should Be" library="RequestsLibrary">
+<arg>200</arg>
+<doc>Fails if response status code is different than the expected.</doc>
+<status status="NOT RUN" starttime="20230619 23:49:20.287" endtime="20230619 23:49:20.287"/>
+</kw>
+<status status="FAIL" starttime="20230619 23:49:19.905" endtime="20230619 23:49:20.293">SSLError: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1002)')))</status>
+</test>
+<status status="FAIL" starttime="20230619 23:49:19.721" endtime="20230619 23:49:20.298"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Etapa Quatro">Etapa Quatro</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
